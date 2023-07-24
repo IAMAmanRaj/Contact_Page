@@ -1,5 +1,6 @@
 import Button from "../Button/Button";
 import styles from "./ContactForm.module.css";
+import Bigimg from "./bigimg.png";
 import { MdMessage } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 
@@ -54,7 +55,7 @@ const ContactForm = () => {
         </form>
       </div>
       <div className={styles.contact_image}>
-        <img src="/images/bigimg.png" alt="contact image" />
+        <img src={Bigimg} alt="Contact_Us" />
       </div>
     </section>
   );
